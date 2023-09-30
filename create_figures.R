@@ -42,8 +42,8 @@ create_fig_table<-function(ct){
 
 
 txtsize=13.5
-load('Data\\ctdemo.R')
-load('Data\\nonAgdemo.R')
+load('ctdemo.R')
+load('nonAgdemo.R')
 
  
 
@@ -232,7 +232,7 @@ pS3+xlab('Ct-level')+theme(legend.key.size = unit(1, 'cm'))
 
 
 #calculate error bars and logistic line
-load('Data\\ctdemo.R')
+load('ctdemo.R')
 
 
 #include only individuals whose AG test was taken before PCR result was obtained
@@ -249,7 +249,7 @@ M=create_fig_table(ct)  #calculate proportion estimates
 
 
 #calculations for spaghetti plot
-load('Data\\ctdemo.R')
+load('ctdemo.R')
 
 #include only individuals whose AG test was taken before PCR result was obtained
 indx1=which(ct$AgTakeMinusPcrTake<ct$PCRresultMinusPcrTake)

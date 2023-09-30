@@ -7,7 +7,7 @@ source('libraries.R')
 #-------------------------------------------------------------------------------
 
 #import
-load('Data\\ctdemo.R')
+load('ctdemo.R')
 
 
 
@@ -90,7 +90,7 @@ MAg=M1[,c("category",'N',"AgPositive")]
 
 
 #repeat previous calculation on the general population
-load('Data\\nonAgdemo.R')
+load('nonAgdemo.R')
 
 #rename months
 nonAg$month=as.character(nonAg$month)

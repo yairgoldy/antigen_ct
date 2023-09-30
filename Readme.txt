@@ -5,7 +5,10 @@ This code is associated with the manuscript:
 The attached datasets were synthetically generated to mimic real data which is unavaialble
 due to privacy issues.
 
-The Data folder contains two .R files, each contains one table:
+
+
+
+The folder contains two .R files, each containing one table:
 
 
 
@@ -30,3 +33,11 @@ ctdemo.R contains a dataframe named "ct", which includes the Ct value of patient
 
 nonAgdemo.R containes a dataframe named "nonAgdemo", which includes the Ct value of patients without an AG tests.
 All columns included here are defined as previously.
+
+
+
+Code files:
+libraries.R loads the necessary libraries
+create_figures.R  plots the figures appearing in the manuscript
+create_tables.R   craetes the tables
+
