@@ -39,5 +39,5 @@ All columns included here are defined as previously.
 Code files:
 libraries.R loads the necessary libraries
 create_figures.R  plots the figures appearing in the manuscript
-create_tables.R   craetes the tables
+create_tables.R   creates the tables
 
