@@ -1,0 +1,32 @@
+
+This code is associated with the manuscript:
+"Public Health-Focused Use of COVID-19 Rapid Antigen and PCR Tests".
+
+The attached datasets were synthetically generated to mimic real data which is unavaialble
+due to privacy.
+
+The folder Data contains two .R files, each contains one table:
+
+
+
+
+ctdemo.R containes a dataframe named "ct", which includes the Ct value of AG tested patients:
+
+"patient_ID":  a unique integer identifying the patient
+"ct":   ct-value, an integer
+"labname":  lab serial number, 1-5
+"cohort":    vaccination status
+"AgResult":   AG test result, positive(1) or negative(0)
+"AgTakeMinusPcrTake":  time elapsed from PCR sample to Ag sample (days)
+"PCRresultMinusPcrTake":  time elapsed from PCR sample to PCR test result (days)
+"vsex":  F/M
+"age_category": age group 
+"AgTakeMinusPcrTakeBeforePOS":    not in use
+"AgTakeMinusPcrTakeBeforeNEG":    not in use 
+"month"
+"epiweek": the two-weeks time interval from Jan 1st, 2022
+
+
+
+nonAgdemo.R containes a dataframe named "nonAgdemo", which includes the Ct value of patients without AG tests.
+All columns appearing here are similarly defined.
