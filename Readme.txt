@@ -5,7 +5,7 @@ This code is associated with the manuscript:
 The attached datasets were synthetically generated to mimic real data which is unavaialble
 due to privacy issues.
 
-The folder Data contains two .R files, each contains one table:
+The Data folder contains two .R files, each contains one table:
 
 
 
