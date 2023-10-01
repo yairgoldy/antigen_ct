@@ -31,7 +31,7 @@ ctdemo.R contains a dataframe named "ct", which includes the Ct value of patient
 
 
 
-nonAgdemo.R containes a dataframe named "nonAgdemo", which includes the Ct value of patients without an AG tests.
+nonAgdemo.R containes a dataframe named "nonAg", which includes the Ct value of patients without an AG tests.
 All columns included here are defined as previously.
 
 
